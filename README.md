@@ -106,8 +106,8 @@ Data Handling	Pandas, NumPy
 
 🚀 Installation & Run
 1️⃣ Clone the repository
-git clone https://github.com/your-username/sentiment-intelligence-dashboard.git
-cd sentiment-intelligence-dashboard
+git clone https://github.com/Shrestha-Developer/social-sentiment-intelligence-dashboard.git
+cd social-sentiment-intelligence-dashboard
 
 2️⃣ Install dependencies
 pip install -r requirements.txt
