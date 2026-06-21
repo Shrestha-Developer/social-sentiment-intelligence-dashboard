@@ -115,6 +115,12 @@ pip install -r requirements.txt
 3️⃣ Run the app
 streamlit run app.py
 
+Optional: export recent X search results with Xquik
+export X_TWITTER_SCRAPER_API_KEY="your_api_key"
+python src/xquik_export.py "product feedback" --limit 50 --campaign "Launch Campaign"
+
+Then upload data/xquik_comments.csv in the Bulk CSV Analyzer.
+
 📥 Dataset Requirements
 
 ✅ Required:
@@ -151,7 +157,6 @@ Scalable analytics system
 
 🔮 Future Improvements
 🤖 Deep Learning Models (LSTM / BERT)
-🌐 Real-time Twitter API integration
 📊 Advanced NLP (NER, Topic Modeling)
 ☁️ Cloud Deployment (AWS / GCP)
 📈 User authentication & dashboards
